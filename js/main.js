@@ -32,6 +32,7 @@ function getWeather(query) {
 
 function queryWeather(query) {
     return $.ajax({
+	dataType: "json",
         type: "GET",
         url: 'http://api.openweathermap.org/data/2.5/weather?q=' + query + "&type=like&units=metric"
     })
