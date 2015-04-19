@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/lib/Bacon.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="content">
+        <div class="title">
+            <h1>Bacon Weather</h1>
+        </div>
+        <form>
+            <input id="weather-search" name="weather-search" type="text" placeholder="Search for a city">
+        </form>
+        <div id="weather">
+
+        </div>
+        <div id="preloader">
+            <img src="img/preload.gif">
+        </div>
+        <div class="notice">
+            <h2>Notice:</h2>
+            <p>Search results can be a bit strange due to how the <a href="http://openweathermap.org/api">OpenWeatherMap API</a> works.</p>
+            <p>For example searching for "hel" results in Helsinki, whereas "hels" results in Oxford.</p>
+        </div>
+    </div>
+
+</body>
+</html>
